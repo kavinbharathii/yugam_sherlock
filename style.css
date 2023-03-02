@@ -25,4 +25,7 @@ main {
     height: 100vh;
 }
 
-    
+.flexed {
+    display: flex;
+    flex-direction: column;
+}
