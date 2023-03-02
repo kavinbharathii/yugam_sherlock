@@ -5,7 +5,7 @@ const button = document.getElementById('confirm')
 const answer = document.getElementById('answer')
 
 button.addEventListener('click', () => {
-    if (kore.value == "prime") {
+    if (kore.value.toLowerCase() == "prime") {
         console.log("Yes!")
         answer.innerHTML = "Next location: Kore"
     } else {
